@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
 
-    <title>{{title}}</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  
+<head>
+
+  <title>{{title}}</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
 <body>
-  {{{body}}}
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></scripgt >
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-          crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-    crossorigin="anonymous"></script>
-  <script src="./js/imgConverter.js"></script>
+  <div class="container-background">
+    <div class="main-container">
+      <div class="container">
+        <header class="header-container">
+          <div class="navbar">
+            <div class="nav-brand">
+              <div class="logo">
+                <h1>ImageToText</h1>
+              </div>
+            </div>
+            <div class="navbar-nav">
+              <a class="btn btn-info actived" href="/">Home</a>
+              <a class="btn btn-info" href="/aboutus">About Us</a>
+              <a class="btn btn-info" href="/contactus">Contact Us</a>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    {{{body}}}
+  </div>
+  <footer>
+    <div class="footer">
+      <div class="row footer-container">
+        <div class="col">
+          <img src="#" logo/>
+        </div>
+        <div class="col">
+          what are we going to write here?
+        </div>
+        <div class="col">
+          CYF (CodeYourFuture)
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/customize.js"></script>
 </body>
 
 </html>
