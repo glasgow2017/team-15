@@ -63,3 +63,17 @@ body{
     width: 10%;
     background: #e01c70;
 }
+
+.description {
+    border: 2px solid orange;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left:180px;
+    margin-right: 180px;
+}
+
+
+footer {
+    background-color: yellow;
+    border: 2px solid blue;
+}
