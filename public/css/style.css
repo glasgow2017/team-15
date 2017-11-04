@@ -5,17 +5,17 @@
 body{
     background: #ccc;
     font-family: 'PT Serif', serif;
+    background: url(https://images.unsplash.com/photo-1496824000084-3b2dc58685d4?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) no-repeat center;
 }
 .container{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
-.main-header{
+.navbar{
     background: #e01c70;
-    padding: 10px;
     color: #fff;
-    min-height: 60px;
+    display: flex;
 }
 .logo{
     width: 40%;
@@ -42,6 +42,8 @@ body{
 .main{
     text-align: center;
     margin-top: 90px;
+    display: flex;
+    flex-direction: column;
 }
 .main .search-header{
     padding: 10px 0;
