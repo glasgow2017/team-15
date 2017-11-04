@@ -1,6 +1,7 @@
-# Team-15
+# Team-15 (CodeYourFuture Glasgow team)
 
-# CodeYourFuture team working on Henshaws beyond expectations
+# Project title
+Henshaws beyond expectations
 
 # Mission
 Henshaws is a charity that has been helping people living with sight loss and range of other disabilities for almost 180years. Henshaw aims to reduce social isolation and increase independence through empowering disabled people to go beyound expectations, and achieve their ambitions.
