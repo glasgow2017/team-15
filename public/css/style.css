@@ -70,10 +70,5 @@ body{
     margin-top: 50px;
     margin-left:180px;
     margin-right: 180px;
-}
-
-
-footer {
-    background-color: yellow;
-    border: 2px solid blue;
+    margin-bottom: 150px;
 }
