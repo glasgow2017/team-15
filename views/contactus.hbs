@@ -1,21 +1,39 @@
-    <div class="container">
-        <div class="main row">
-            <div class="jumbotron jumbotron-fluid">
-                <h1 class="search-header"> Contact us </h1>
-                <div id="searchResult"></div>
-                <div class="description">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Full Name</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter name">            
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            <label for="exampleFormControlTextarea1">Please enter your message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+<div class="container">
+    <div class="main row">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="search-header"> Contact us </h1>
+            <div id="searchResult"></div>
+            <div class="description contact-description">
+                <form>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <label for="exampleFormControlInput1">Full Name</label>
+                            </div>
+                            <div class="col-lg-8">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter name">
+                            </div>
                         </div>
-                    </form>
-                        <button type="button" value="Submit" class="btn  btn-info btn-lg btn-block">Submit</button>
-                </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <label for="exampleFormControlInput1">Email address</label>
+                            </div>
+                            <div class="col-lg-8">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <label class="message" for="exampleFormControlTextarea1">Please enter your message</label>
+                            </div>
+                            <div class="col-lg-8">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <button type="button" value="Submit" class="btn  btn-info btn-lg btn-block">Submit</button>
             </div>
         </div>
     </div>
+</div>

@@ -126,3 +126,12 @@ img {
     height: 220px;
     /* padding-top: 20px; */
 }
+
+.contact-description {
+    margin-top: 13px;
+    /* height: 280px; */
+}
+
+.message {
+    height: 5px;
+}
