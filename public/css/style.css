@@ -11,7 +11,9 @@ h4 {
     font-style: bold;
     color: #c40b52;
 }
-
+.input-height{
+    margin-top: 10px;
+}
 .navbar {
     background: #e01c70;
     color: #fff;
