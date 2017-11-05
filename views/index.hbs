@@ -2,11 +2,25 @@
     <div class="main row">
         <div class="jumbotron jumbotron-fluid">
             <h1 class="search-header">Search for Info</h1>
-            <form method="post">
-                <input type="text" placeholder="enter URL">
-                <input type="submit" value="Submit">
-            </form>
+                <input type="text" id="inputImage" placeholder="enter URL">
+                <input type="submit" onclick="document.getElementById('resultArea').style.display='inline';processImagetoText();" value="Submit">
             <div id="searchResult"></div>
+
+            <center><br><br>
+            <div style="display:none" id="resultArea">
+                <div id="imageDiv" style="width:420px; display:table-cell;">
+                    <h4>Source image:</h4>
+                    <br>
+                    <img id="sourceImage" width="400" />
+                </div>
+                <div id="jsonOutput" style="width:600px; display:table-cell;">
+                    <h4>Result:</h4>
+                    <br>
+                    <textarea id="responseTextArea" class="UIInput" style="width:580px; height:300px;"></textarea>
+                </div>    
+            <div>
+            </center>
+
             <div class="description">
                 <h1>How does this app work?</h1>
                 <p>This application helps visually impaired users better understand content that appears online by translating

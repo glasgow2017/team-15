@@ -7,6 +7,11 @@ body{
     background-size: cover;    
 }
 
+h4{
+    font-style: bold;
+    color:#c40b52;
+}
+
 .navbar{
     background: #e01c70;
     color: #fff;
