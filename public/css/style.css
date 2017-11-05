@@ -86,8 +86,8 @@ h4 {
     background: #e01c70;
     border-radius: 10px;
     color: white;
-    padding: 30px;
-    margin-top: 50px;
+    padding: 20px;
+    margin-top: 20px;
     margin-left: 180px;
     margin-right: 180px;
 }
@@ -116,4 +116,13 @@ img {
 
 .cyf-logo {
     background: #fff;
+}
+
+.aboutus {
+    margin-top: 40px;
+}
+
+.aboutusdescription {
+    height: 220px;
+    /* padding-top: 20px; */
 }
