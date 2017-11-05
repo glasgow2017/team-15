@@ -37,7 +37,7 @@ function processImagetoText() {
       //var temp = JSON.stringify(data, null, 2);
       console.log(temp["description"]);
       if (temp["description"]["captions"][0]["text"]) {
-        $("#responseTextArea").val(temp["description"]["captions"][0]["text"]);
+        $("#responseTextArea").val(temp["description"]["captions"][0]["text"] + " (Accuracy: " + temp["description"]["captions"][0]["confidence"] + ")");
       } else {
         $("#responseTextArea").val(temp["description"]["tags"][0]);
       }
