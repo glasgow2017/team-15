@@ -1,30 +1,31 @@
-
-body{
-    font-family: 'PT Serif', serif;    
+body {
+    font-family: 'PT Serif', serif;
 }
-.container-background{
+
+.container-background {
     background: url(https://images.unsplash.com/photo-1496824000084-3b2dc58685d4?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) no-repeat center center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-h4{
+h4 {
     font-style: bold;
-    color:#c40b52;
+    color: #c40b52;
 }
 
-.navbar{
+.navbar {
     background: #e01c70;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
 }
-.navbar-nav{
+
+.navbar-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 50%;
 }
 
-.logo{
+.logo {
     width: 40%;
     float: left;
 }
@@ -41,41 +42,44 @@ h4{
     border-color: #fff;
 }
 
-.jumbotron{
+.jumbotron {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     transition: all .5s ease-in-out;
     padding-top: 30px;
 }
 
-.main-container > .container { 
+.main-container>.container {
     padding-left: 0;
     padding-right: 0;
 }
-.main{
+
+.main {
     text-align: center;
     margin-top: 35px;
     display: flex;
     flex-direction: column;
 }
-.main .search-header{
+
+.main .search-header {
     padding: 0 0 30px 0;
     color: #e01c70;
 }
-.main input[type=text]{
+
+.main input[type=text] {
     padding: 10px;
     border: none;
     border-radius: 4px;
     width: 50%;
 }
 
-.main input[type=submit]{
+.main input[type=submit] {
     padding: 10px;
     border: none;
     border-radius: 4px;
     width: 10%;
     background: #e01c70;
-    color:white;
+    color: white;
 }
 
 .description {
@@ -84,7 +88,7 @@ h4{
     color: white;
     padding: 30px;
     margin-top: 50px;
-    margin-left:180px;
+    margin-left: 180px;
     margin-right: 180px;
 }
 
@@ -94,6 +98,18 @@ footer {
     text-align: center;
 }
 
-.footer-container{
-    padding: 20px;
+.footer-container {
+    padding: 5px;
+}
+
+img {
+    width: 120px;
+    height: 80px;
+}
+
+.copyright {
+    border: 1px solid yellow;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: lightgreen;
 }
