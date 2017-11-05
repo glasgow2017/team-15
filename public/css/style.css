@@ -102,7 +102,7 @@ footer {
     padding: 5px;
 }
 
-img {
+.footer-logo {
     width: 120px;
 }
 
@@ -115,7 +115,7 @@ h6{
     color: white;
 }
 
-.cyf-logo {
+.cyf-logo, .-logo {
     background: #fff;
 }
 
