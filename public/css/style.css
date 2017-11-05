@@ -104,14 +104,15 @@ footer {
 
 img {
     width: 120px;
-    height: 80px;
 }
 
-.copyright {
-    border: 1px solid yellow;
+h6{
     padding-top: 5px;
-    margin-top: 5px;
-    background-color: lightgreen;
+    font-size: 14px;
+}
+.copyright {
+    padding-top: 5px;
+    color: white;
 }
 
 .cyf-logo {
