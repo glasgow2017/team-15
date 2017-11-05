@@ -9,7 +9,7 @@ Henshaws is a charity that has been helping people living with sight loss and ra
 # Challenge
 This application will help visually impaired users better understand content that appears online. While tools exist that can read text, a tool that can describe text, images, graphics, videos and other content to disabled users will ultimately help them better understand and navigate website.
 
-# Updated 
+# How to run the server 
 
 To run the code `use npm run dev` 
 
